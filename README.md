@@ -80,7 +80,7 @@ Once you have the solution, POST it back to the provided `challengePath` to chec
 
 # 🖼️ Starter
 
-A [go example client](./automatabot.go) is included to help you get started. This client fetches a challenge and prints out the grid of cells.
+A [go example client](./starters/automatabot.go) is included to help you get started. This client fetches a challenge and prints out the grid of cells.
 
 Run it with `go run automatabot.go`
 
@@ -93,3 +93,7 @@ It's up to you to add the logic to compute the result of the challenge and send 
 - **Animate it:** Create a visualization with these patterns. Incorporate color. Try changing the colors of cells based on their position in the grid or how long they have been alive.
 
 - **Make it boundless:** Although these grids have a fixed size, some automata will grow larger and larger with each generation. Try to support either an unbounded grid of cells, or one that wraps around from left to right and top to bottom.
+
+More about Automatabot on [noopschallenge.com](https://noopschallenge.com/challenges/automatabot)
+
+See the Golfbot solutions to Conway's Game of Life (written in less than 256 characters) in [this repository](https://github.com/noops-challenge/golfbot/tree/master/challenges/conways-life).
